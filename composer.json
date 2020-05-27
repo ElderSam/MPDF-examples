@@ -1,0 +1,16 @@
+{
+    "name": "samue/mpdf-examples",
+    "description": "Exemplos de geração de PDF com HTML",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ElderSam",
+            "email": "eldersamuel98@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "mpdf/mpdf": "dev-master"
+    }
+}
