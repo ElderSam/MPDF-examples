@@ -45,6 +45,11 @@ Devmedia <a href='https://www.devmedia.com.br/manipulando-datas-com-php/32966'>M
 // the ISO-8859-1 just change for $mpdf->WriteHTML($html);
 $mpdf->WriteHTML($content);
 
+$mpdf->AddPage(); //second page
+$content2 = "<h1>This is the 2nd page</h1>
+<a href=''> link para o meu repositório de EXEMPLOS COM MPDF </a>";
+$mpdf->WriteHTML($content);
+
 $filename = 'example.pdf';
 
 if (isset($_GET['filename'])) { //se clicou para ver o PDF
