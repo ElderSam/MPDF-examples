@@ -12,6 +12,6 @@
     "minimum-stability": "dev",
     "require": {
         "mpdf/mpdf": "dev-master",
-        "phpmailer/phpmailer":"~5.2"
+        "phpmailer/phpmailer":"~6.5"
     }
 }
